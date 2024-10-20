@@ -1,0 +1,21 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate300: hsl(212, 45%, 89%);
+    --slate500: hsl(216, 15%, 48%);
+    --slate900: hsl(218, 44%, 22%);
+
+    /*  Font Size */
+    --paragrapFs: 15px;
+
+    /* Font weight */
+    --fw-paragraph: 400;
+    --fw-heading: 700;
+}
+
+body {
+    background-color: var(--slate300);
+}
+
+.wrapper {
+    background-color: var(--white);
+}
