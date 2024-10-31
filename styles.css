@@ -22,15 +22,15 @@ body {
 
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: var(--fw-paragraph);
     font-style: normal;
 }
 
 .wrapper {
-    border-radius: 25px;
-    padding: 1.5rem;
-    margin: 1.5rem;
-    max-width: 300px;
+    border-radius: 20px;
+    padding: 16px;
+    padding-bottom: 40px;
+    margin: 24px;
+    max-width: 320px;
     background-color: var(--white);
 }
 
@@ -38,12 +38,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     text-align: center;
 }
 
 .img-container {
-    border-radius: 25px;
+    border-radius: 20px;
     overflow: hidden;
     width: 100%;
 }
@@ -53,11 +52,27 @@ body {
 }
 
 .main-heading {
+    line-height: 120%;
     color: var(--slate900);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: var(--fw-heading);
+    font-size: 22px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.text-container {
+    padding: 0 16px 0 16px;
 }
 
 .paragraph {
     font-size: var(--paragrapFs);
+    line-height: 140%;
     font-weight: var(--fw-paragraph);
+    letter-spacing: 0.2px;
+    color: var(--slate500);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    margin-bottom: 0;
+    margin: 0;
 }
