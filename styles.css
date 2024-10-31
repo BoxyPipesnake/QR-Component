@@ -14,8 +14,50 @@
 
 body {
     background-color: var(--slate300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--fw-paragraph);
+    font-style: normal;
 }
 
 .wrapper {
+    border-radius: 25px;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    max-width: 300px;
     background-color: var(--white);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.img-container {
+    border-radius: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.qr-image {
+    max-width: 100%;
+}
+
+.main-heading {
+    color: var(--slate900);
+    font-weight: var(--fw-heading);
+}
+
+.paragraph {
+    font-size: var(--paragrapFs);
+    font-weight: var(--fw-paragraph);
 }
